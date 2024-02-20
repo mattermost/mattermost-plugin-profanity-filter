@@ -42,6 +42,9 @@ issues:
     - path: server/configuration.go
       linters:
         - unused
+    - path: server/manifest.go
+      linters:
+        - misspell
     - path: _test\.go
       linters:
         - bodyclose
